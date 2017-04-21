@@ -1,0 +1,12 @@
+# QQ登陆
+# http://wiki.connect.qq.com/%E7%A7%BB%E5%8A%A8%E5%BA%94%E7%94%A8%E6%8E%A5%E5%85%A5%E6%B5%81%E7%A8%8B
+
+appinfo:
+    appid: "1105192657"
+    secret: "KEY6q8uSZDK0CwL1E3N"
+    redirect_uri: "http://www.baidu.com"
+
+iosinfo:
+    appid: "1105141561"
+    secret: "iphsuOGUZ5ed9N3L"
+    redirect_uri: "http://www.baidu.com"

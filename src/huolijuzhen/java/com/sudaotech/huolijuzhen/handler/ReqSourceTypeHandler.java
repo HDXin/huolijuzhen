@@ -1,0 +1,36 @@
+package com.sudaotech.huolijuzhen.handler;
+
+import java.sql.CallableStatement;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import org.apache.ibatis.type.JdbcType;
+import org.apache.ibatis.type.TypeHandler;
+
+import com.sudaotech.huolijuzhen.enums.ReqSourceType;
+
+
+public class ReqSourceTypeHandler implements TypeHandler<ReqSourceType> {
+
+    @Override
+    public ReqSourceType getResult(ResultSet rs, String column) throws SQLException {
+        return ReqSourceType.codeOf(rs.getInt(column));
+    }
+
+    @Override
+    public ReqSourceType getResult(ResultSet rs, int i) throws SQLException {
+        return ReqSourceType.codeOf(rs.getInt(i));
+    }
+
+    @Override
+    public ReqSourceType getResult(CallableStatement cs, int i) throws SQLException {
+        return ReqSourceType.codeOf(cs.getInt(i));
+    }
+
+    @Override
+    public void setParameter(PreparedStatement ps, int i, ReqSourceType param, JdbcType jdbcType) throws SQLException {
+        ps.setByte(i, (byte)param.code());
+    }
+
+}

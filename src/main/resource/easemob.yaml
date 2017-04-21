@@ -1,0 +1,23 @@
+# 环信配置信息 dawei.wang@shminga.com  Fang5201314
+
+# 环信统一配置
+protocal: https
+host: a1.easemob.com
+org: 1129161111178164
+
+# 园区APP
+park:
+    app: huolijuzhenpark
+    clientId: YXA6WhXroLLwEeajqvnU4EmABQ
+    clientSecret: YXA6Sqw_Pm36sm37Z5d4rsM1n4rJXHw
+    impLib: httpclient
+    
+# 企业APP
+enterprise:
+    app: huolijuzhenent
+    clientId: YXA6yzkV8LLwEea5lb0vDLcnpw
+    clientSecret: YXA6__g4wdp6uFvMMZn110P1MjQ39Lc
+    impLib: httpclient
+
+
+

@@ -1,0 +1,29 @@
+# 快递100
+
+kuaidi100:
+    subscribeurl: "http://www.kuaidi100.com/poll"
+    key: "WMNZfvMD2985"
+    callbackurl: "http://api.iwuse.net/platform/kuaidi100/notify"
+
+
+kuaidi100com:
+    shunfeng: "顺丰"
+    debangwuliu: "德邦"
+    ems: "EMS"
+    ganzhongnengda: "港中能达"
+    guotongkuaidi: "国通"
+    huitongkuaidi: "汇通"
+    quanfengkuaidi: "全峰"
+    shentong: "申通"
+    suer: "速尔"
+    tiantian: "天天"
+    youshuwuliu: "优速"
+    youzhengguonei: "邮政包裹"
+    yuantong: "圆通"
+    yunda: "韵达"
+    yuntongkuaidi: "运通"
+    zengyisudi: "增益"
+    zhaijisong: "宅急送"
+    zhongtong: "中通"
+    zhongtiewuliu: "中铁物流"
+    ztky: "中铁快运"

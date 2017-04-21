@@ -1,0 +1,75 @@
+###########################################
+# 默认配置文件: 用于提供所有配置项及默认值
+###########################################
+# 基础域名
+site.url: ""
+platform.url: "http://vacances.sudaotech.com/platform"
+platform.url.image: "http://vacances.sudaotech.com/platform/image"
+###########################################
+# 文件存储根目录
+filestorage.root: /data1/node1/vacances
+
+###########################################
+# redis服务
+redis.host: localhost
+redis.port: 6379
+
+###########################################
+# rabbitMq
+mq.host: localhost
+mq.port: 5672
+mq.username: guest
+mq.password: guest
+
+###########################################
+# mybatis 数据库配置
+mybatis.environment.id: default
+JDBC.driver: com.mysql.jdbc.Driver
+JDBC.url: "jdbc:mysql://localhost:3306/huolijuzhen_local?autoReconnect=true&autoReconnectForPools=true&useUnicode=true&characterEncoding=utf8"
+JDBC.username: huolijuzhen
+JDBC.password: huolijuzhen
+JDBC.autoCommit: false
+c3p0.maxIdleTime: 60
+
+###########################################
+# elasticsearch搜索服务配置
+elasticsearch.cluster.name: elasticsearch
+elasticsearch.cluster.nodes: "127.0.0.1:9300"
+elasticsearch.index.name: default_index
+
+###########################################
+# 是否开启短信：true | false
+sms.enabled: true
+
+# 中舜（志晴）短信接口
+sms.zhongshun.username: sudao
+sms.zhongshun.password: sudao
+sms.zhongshun.serviceURL: "http://124.173.70.59:8081/SmsAndMms/mt"
+
+# 示远科技短信接口
+sms.shiyuan.username: "sudao"
+sms.shiyuan.password: "sudao"
+sms.shiyuan.serviceURL: "http://120.26.69.248/msg/HttpSendSM"
+
+# 云通信短信接口
+sms.zz.username: "N3057727"
+sms.zz.password: "zd6PtxiSTh4ad2"
+sms.zz.serviceURL: "http://sms.253.com/msg/HttpBatchSendSM"
+
+
+###########################################
+# Cookie配置
+#cookie.domain: ".sudaotech.com"
+
+###########################################
+# 中金支付配置
+cfca.payment.institutionID: "001432"
+cfca.payment.config.path: /data1/cfca/config
+cfca.payment.notice.url: "http://www.sudaotech.com/platform/pay/cfca/notice"
+cfca.payment.notice.page: "http://www.sudaotech.com/platform/pay/cfca/notice/page"
+
+###########################################
+# 声音编码解码配置
+sound.encoding.url: "http://115.159.108.132/iapi/ultrasonic/encoding?encoder=1&fmt=1"
+sound.decoding.url: "http://115.159.108.132/iapi/ultrasonic/decoding?encoder=1&fmt=1"
+

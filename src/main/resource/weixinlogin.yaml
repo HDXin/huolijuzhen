@@ -1,0 +1,6 @@
+# 微信登陆
+# https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=open1419317851&token=&lang=zh_CN
+
+appinfo:
+    appid: "wx5f10246d10b41397"
+    secret: "ae715541c2eb3c2ee3d714837dad8742"

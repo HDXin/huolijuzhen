@@ -1,0 +1,4 @@
+# Redis相关配置
+maxTotal: 100
+maxIdle: 50
+minIdle: 20

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="DEBUG">
+	<Appenders>
+		<RollingFile name="RollingFile" fileName="/host/software/mine-workspace/idea/hljz-platform/platform/data/logs/platform.log"
+					 filePattern="/host/software/mine-workspace/idea/hljz-platform/platform/data/logs/platform-%d{yyyyMMdd}-%i.log.gz">
+			<PatternLayout pattern="%d [%t] [%X{X-UUID}] [X-UID-%X{X-UID}] %-5level %logger - %msg%n"/>
+			<Policies>
+				<TimeBasedTriggeringPolicy/>
+				<SizeBasedTriggeringPolicy size="250 MB"/>
+			</Policies>
+		</RollingFile>
+		<RollingFile name="ErrorRollingFile" fileName="/host/software/mine-workspace/idea/hljz-platform/platform/data/logs/platform.error.log"
+					 filePattern="/host/software/mine-workspace/idea/hljz-platform/platform/data/logs/platform-%d{yyyyMMdd}-%i.error.log.gz">
+			<PatternLayout pattern="%d [%t] [%X{X-UUID}] [X-UID-%X{X-UID}] %-5level %logger - %msg%n"/>
+			<Policies>
+				<TimeBasedTriggeringPolicy/>
+				<SizeBasedTriggeringPolicy size="250 MB"/>
+			</Policies>
+		</RollingFile>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d [%t] [%X{X-UUID}] [X-UID-%X{X-UID}] %-5level %logger - %msg%n" />
+			<!--<PatternLayout		pattern="%highlight{%d{HH:mm:ss.SSS} %-5level %logger{36}.%M() @%L - %msg%n}{FATAL=Bright Red, ERROR=Bright Red, WARN=Bright Yellow, INFO=Bright Green, DEBUG=Bright Gray, TRACE=Bright White}"/> -->
+		</Console>
+	</Appenders>
+	<Loggers>
+		<Root level="DEBUG">
+			<AppenderRef ref="Console"/>
+			<!-- 			<AppenderRef ref="RollingFile" /> -->
+		</Root>
+		<!--
+        <Root level="ERROR">
+            <AppenderRef ref="ErrorRollingFile" />
+        </Root>
+        -->
+		<logger name="org.jboss.resteasy.plugins" level="INFO"/>
+
+	</Loggers>
+</Configuration>

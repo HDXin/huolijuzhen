@@ -1,0 +1,6 @@
+templates:
+    PHONE_CODE_SEND: 【活力矩阵】您的验证码是%s，请在30分钟内填写！
+    PASSWORD_RESET: 【活力矩阵】您的密码已被重置，请在一小时内登录并重新设置密码，临时密码为%s
+    PASSWORD_INITIALIZED: 【活力矩阵】您的帐号已创建成功，初始登录密码是%s
+    PARK_USER_CREATE: 【活力矩阵】您的帐号已创建成功，初始登录密码是%s
+    PARK_BILL_PUSH: 【活力矩阵】您有 %s 账单未处理，请您及时处理！

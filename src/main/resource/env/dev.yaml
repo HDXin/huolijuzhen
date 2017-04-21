@@ -1,0 +1,30 @@
+###########################################
+# 基础域名
+site.url: "http://vacances.sudaotech.com"
+###########################################
+# 文件存储根目录
+filestorage.root: /data1/node1/hejia
+
+###########################################
+# redis服务
+redis.host: localhost
+redis.port: 6380
+
+###########################################
+# mybatis 数据库配置
+mybatis.environment.id: dev
+JDBC.driver: com.mysql.jdbc.Driver
+JDBC.url: "jdbc:mysql://localhost:3306/hejia_dev?autoReconnect=true&autoReconnectForPools=true&useUnicode=true&characterEncoding=utf8"
+JDBC.username: root
+JDBC.password: root@sd;mYu>7FAD
+JDBC.autoCommit: false
+c3p0.maxIdleTime: 60
+
+###########################################
+# elasticsearch搜索服务配置
+elasticsearch.cluster.nodes: "127.0.0.1:9300"
+elasticsearch.index.name: hejia_dev
+
+###########################################
+# 是否开启短信：true | false
+sms.enabled: true

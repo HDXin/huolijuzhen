@@ -1,0 +1,16 @@
+# 域名
+domainUrl: http://huolijuzhen.sudaotech.com
+# domainUrl: http://www.huolijuzhen.com
+
+# H5 頁面
+domainHtmlUrl: http://huolijuzhen.sudaotech.com
+# domainHtmlUrl: http://static.huolijuzhen.com
+
+# Excel 临时文件存放路径
+filePath: /data/websites/huolijuzhen.sudaotech.com/temp/
+# filePath: E://temp/
+# filePath: /data/apps/platform/temp/
+
+# 图片前缀
+imagePre: /platform/image/
+

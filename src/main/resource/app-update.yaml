@@ -1,0 +1,9 @@
+# app升级配置
+# 下属配置用于示例（v1.0.0)
+updates:
+-
+    app: "a-surfingtv"
+    version: 1.0.0.1
+    url: "/download/surfingtv-1.0.0.1.apk"
+    title: "逛电视 APP v1.0.0"
+    content: "新版本发布了\n优化加载速度"

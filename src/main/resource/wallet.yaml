@@ -1,0 +1,18 @@
+# Alipay 支付宝
+    
+# Weixin 微信支付
+
+weixinpay:
+    appid: "wx0c247c39279618c0"
+    appsecret: "57ab19ff431931d482cb62f0bfc79eaf"
+    appkey: "daf8711465dffa56ba9e8cff74107744"
+    merchantid: "1391967002"
+    notifyurl: "http://test.jiazu.co/api/wallet/weiXinNotify"
+    merchantpayurl: "https://api.mch.weixin.qq.com/mmpaymkttransfers/promotion/transfers"
+    prepayurl: "https://api.mch.weixin.qq.com/pay/unifiedorder"
+    apikey: "Vacances2016ChenJinlei787878Mkok"
+    ip: "192.168.0.10"
+    certPath: "/data/websites/vacances.sudaotech.com/cert/apiclient_cert.p12"
+    
+# certPath: "C:/cert/apiclient_cert.p12"   
+    

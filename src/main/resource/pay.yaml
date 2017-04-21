@@ -1,0 +1,15 @@
+# Alipay 支付宝
+
+alipay:
+    partner: "2088911710013690"
+    privatekey: "ukrs1nwb1l4hrh9v429db534p5hg5hef"
+    
+    
+# Weixin 微信支付
+
+weixinpay:
+    appid: "wxfebf5e3c9c3a21e2"
+    appsecret: "f8d931dbf6caf72a62b9ef337073563c"
+    appkey: "daf8711465dffa56ba9e8cff74107744"
+    merchantid: "1249183201"
+    notifyurl: "http://api.iwuse.net/platform/wxpay/notify"

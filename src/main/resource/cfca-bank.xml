@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Items>
+    <bank bankId="100" bankName="邮政储蓄银行" b2cSupport="1" b2bSupport="0" />
+    <bank bankId="102" bankName="中国工商银行" b2cSupport="1" b2bSupport="1" />
+    <bank bankId="103" bankName="中国农业银行" b2cSupport="1" b2bSupport="1" />
+    <bank bankId="104" bankName="中国银行" b2cSupport="1" b2bSupport="1" />
+    <bank bankId="105" bankName="中国建设银行" b2cSupport="1" b2bSupport="1" />
+    <bank bankId="301" bankName="交通银行" b2cSupport="1" b2bSupport="1" />
+    <bank bankId="302" bankName="中信银行" b2cSupport="1" b2bSupport="1" />
+    <bank bankId="303" bankName="中国光大银行" b2cSupport="1" b2bSupport="1" />
+    <bank bankId="304" bankName="华夏银行" b2cSupport="1" b2bSupport="1" />
+    <bank bankId="305" bankName="中国民生银行" b2cSupport="1" b2bSupport="1" />
+    <bank bankId="306" bankName="广东发展银行" b2cSupport="0" b2bSupport="1" />
+    <bank bankId="307" bankName="平安银行" b2cSupport="1" b2bSupport="1" />
+    <bank bankId="308" bankName="招商银行" b2cSupport="1" b2bSupport="1" />
+    <bank bankId="309" bankName="兴业银行" b2cSupport="0" b2bSupport="1" />
+    <bank bankId="310" bankName="上海浦东发展银行" b2cSupport="1" b2bSupport="1" />
+    <bank bankId="311" bankName="恒丰银行" b2cSupport="0" b2bSupport="0" />
+    <bank bankId="317" bankName="渤海银行" b2cSupport="0" b2bSupport="0" />
+    <bank bankId="422" bankName="河北银行" b2cSupport="0" b2bSupport="1" />
+    <bank bankId="401" bankName="上海银行" b2cSupport="1" b2bSupport="0" />
+    <bank bankId="403" bankName="北京银行" b2cSupport="1" b2bSupport="1" />
+    <bank bankId="424" bankName="南京银行" b2cSupport="1" b2bSupport="0" />
+    <bank bankId="434" bankName="天津银行" b2cSupport="0" b2bSupport="1" />
+    <bank bankId="408" bankName="宁波银行" b2cSupport="1" b2bSupport="1" />
+    <bank bankId="440" bankName="徽商银行" b2cSupport="1" b2bSupport="1" />
+    <bank bankId="442" bankName="哈尔滨银行" b2cSupport="1" b2bSupport="1" />
+    <bank bankId="443" bankName="贵阳银行" b2cSupport="1" b2bSupport="1" />
+    <bank bankId="447" bankName="兰州银行" b2cSupport="1" b2bSupport="0" />
+	<bank bankId="450" bankName="青岛银行" b2cSupport="1" b2bSupport="0" />
+    <bank bankId="3001" bankName="东亚银行" b2cSupport="0" b2bSupport="1" />
+    <bank bankId="888" bankName="中金网银无卡" b2cSupport="1" b2bSupport="0" />
+    <bank bankId="889" bankName="中金网银" b2cSupport="1" b2bSupport="0" />
+    <bank bankId="891" bankName="金科无卡" b2cSupport="1" b2bSupport="0" />
+    <bank bankId="892" bankName="银联代扣" b2cSupport="1" b2bSupport="1" />
+    <bank bankId="900" bankName="收单机构（900）" b2cSupport="1" b2bSupport="0" />
+    <bank bankId="700" bankName="CFCA模拟银行" b2cSupport="1" b2bSupport="1" />
+</Items>

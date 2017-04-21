@@ -1,0 +1,9 @@
+# 事件相关配置
+notifyListenersEnabled: true
+notifyListeners:
+-   com.sudaotech.comment.event.CommentEventListener
+
+# 定时任务key
+timerTasks:
+- updWeightAndCount
+- updUserPoints
